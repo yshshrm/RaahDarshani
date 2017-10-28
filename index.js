@@ -11,15 +11,17 @@ function driver(){
     //     }
     //     fs.writeFile('output.txt', '', function(){console.log('done')})
     // });
-    readLastLines.read('output.txt', 1)
+    readLastLines.read('output.txt', 2)
     .then((lines) => {
         console.log(lines);
-        if(lines == 1){
+        if(lines === '1\r\n'){
             say.speak("Object is in front of you");
         }
     });
 }
 
 console.log('before setInterval');
+
+say.speak("sukriti");
 
 setInterval(driver, 1000);
