@@ -15,7 +15,7 @@ function driver(){
     .then((lines) => {
         console.log(lines);
         if(lines === '1\r\n'){
-            say.speak("Obstacle Detacted");
+            say.speak("Obstacle");
         }
     });
 }
