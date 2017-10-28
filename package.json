@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "read-last-lines": "^1.2.0"
+    "read-last-lines": "^1.2.0",
+    "say": "^0.13.1"
   }
 }
