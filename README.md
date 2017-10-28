@@ -13,3 +13,5 @@ An IoT based solution to detect the proximity as well as the type of hurdle. The
 ##### APIs Used
 * IBM Watson for object detection
 * (say) for text-to-speech
+#### Progress
+* Right now we are able to implement hardware part. Our system is detecting that there is a obstacle in its path. Also our image detection is working properly. now we just need to take input for object detection and implement these two feature in one.
