@@ -15,13 +15,13 @@ function driver(){
     .then((lines) => {
         console.log(lines);
         if(lines === '1\r\n'){
-            say.speak("Object is in front of you");
+            say.speak("Obstacle Detacted");
         }
     });
 }
 
 console.log('before setInterval');
 
-say.speak("sukriti");
+say.speak("System started");
 
 setInterval(driver, 1000);
